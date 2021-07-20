@@ -1,0 +1,47 @@
+.component-button {
+  height: 50px;
+  width: 250px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: space-between;
+  cursor: pointer;
+  box-sizing: border-box;
+  border-style: solid;
+  border-width: 2px;
+  border-color: #96A4DC;
+  transition: 0.3s;
+  border-radius: 10px;
+  padding-left: 20px;
+  padding-right: 20px;
+  margin-top: 30px;
+  margin-bottom: 30px;
+
+  &:hover {
+    border-width: 2px;
+    margin-left: 10px;
+  }
+}
+
+.component-button-header {
+  height: 50px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: space-between;
+  cursor: pointer;
+  box-sizing: border-box;
+  border-style: solid;
+  border-width: 2px;
+  border-color: #96A4DC;
+  transition: 0.3s;
+  border-radius: 10px;
+  padding-left: 20px;
+  padding-right: 20px;
+  margin-top: 30px;
+  margin-bottom: 30px;
+
+  &:hover {
+    border-width: 2px;
+    background-color: #96A4DC;
+    box-shadow: 0px 0px 10px #96A4DC;
+  }
+}

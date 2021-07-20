@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="246.198" height="145.626" viewBox="0 0 246.198 145.626">
+  <g id="step1_seed" transform="translate(1.5 1.5)">
+    <g id="Group_46" data-name="Group 46" transform="translate(-120.393 -125.016)">
+      <line id="Line_14" data-name="Line 14" x2="9.926" transform="translate(120.393 242.872)" fill="none" stroke="#fff" stroke-linecap="round" stroke-linejoin="round" stroke-width="3"/>
+      <path id="Path_76" data-name="Path 76" d="M129.393,187.907h78.7s8.389,14.771,11.818,15.244,11.816,9.1,11.816,9.1,5.673,1.181,7.328-.828,22.217-23.516,27.533-23.516h73.149" transform="translate(7.308 54.966)" fill="none" stroke="#fff" stroke-linecap="round" stroke-linejoin="round" stroke-width="3"/>
+      <line id="Line_15" data-name="Line 15" x2="8.508" transform="translate(355.083 242.872)" fill="none" stroke="#fff" stroke-linecap="round" stroke-linejoin="round" stroke-width="3"/>
+      <g id="Group_45" data-name="Group 45" transform="translate(254.457 125.016)">
+        <path id="Path_77" data-name="Path 77" d="M202.638,120.213,256,139.284,242.063,176.7l-39.425-15.4s5.681-11-8.257-19.073Z" transform="translate(-194.381 -120.213)" fill="#fff" stroke="#fff" stroke-linecap="round" stroke-linejoin="round" stroke-width="3"/>
+        <line id="Line_16" data-name="Line 16" y1="36.506" x2="13.428" transform="translate(15.038 7.222)" fill="none" stroke="#fff" stroke-linecap="round" stroke-linejoin="round" stroke-width="3"/>
+        <line id="Line_17" data-name="Line 17" x1="14.042" y2="36.759" transform="translate(29.223 12.512)" fill="none" stroke="#fff" stroke-linecap="round" stroke-linejoin="round" stroke-width="3"/>
+      </g>
+      <path id="Path_78" data-name="Path 78" d="M191.685,170.052a1.309,1.309,0,0,1,2.4.2c.752,2.245,1.256,4.954-1.468,4.954C190.134,175.206,190.584,172.132,191.685,170.052Z" transform="translate(57.169 39.904)" fill="#fff" stroke="#fff" stroke-linecap="round" stroke-linejoin="round" stroke-width="3"/>
+    </g>
+    <text id="SEEDED" transform="matrix(0.934, 0.358, -0.358, 0.934, 138.073, 0)" fill="#23232b" font-size="13" font-family="Helvetica"><tspan x="5.77" y="10">SEEDED</tspan></text>
+  </g>
+</svg>

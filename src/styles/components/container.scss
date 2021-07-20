@@ -1,0 +1,11 @@
+.component-container{
+    max-width: 1520px;
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+
+    @media screen and (max-width: 1520px) {
+        padding-left: 24px;
+        padding-right: 24px;
+    }
+}

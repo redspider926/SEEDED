@@ -1,0 +1,67 @@
+.text-white {
+  color: #ffffff;
+}
+
+.text-light {
+  color: #999999;
+}
+
+.text-pink {
+  color: #D13887;
+}
+
+.text-black {
+  color: #000000;
+}
+
+.text-gray {
+  color: #333333
+}
+
+.text-xs{
+  font-size: 12px;
+}
+
+.text-sm {
+  font-size: 18px;
+  line-height: 25px;
+}
+
+.text-button{
+  font-size: 20px;
+}
+
+.text-md {
+  font-size: 32px;
+}
+
+.text-lg {
+  font-size: 72px;
+}
+
+.text-bold {
+  font-weight: bold;
+}
+
+.text-bolder {
+  font-weight: bolder;
+}
+
+.text-center{
+  text-align: center;
+}
+
+.text-right{
+  text-align: right;
+}
+
+@font-face {
+  font-family: "Lato";
+  font-style: normal;
+  src: url("../../assets/font/Lato-Regular.ttf");
+  /* IE9 Compat Modes */
+}
+
+div {
+  font-family: Lato;
+}

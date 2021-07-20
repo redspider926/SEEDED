@@ -1,0 +1,246 @@
+.landing-page {
+  &__part{
+    position: relative;
+    min-height: calc(100vh - 84px) !important;
+    padding-bottom: 0px;
+    padding-top: 0px;
+    box-sizing: border-box;
+
+    @media screen and (max-width: 640px) {
+        padding-top: 100px !important;
+        padding-bottom: 100px !important;
+    }
+  }
+
+  &__part-1{
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 20px;
+
+    &__title{
+      margin-bottom: 40px;
+
+      span{
+        color: #96A4DC;
+      }
+    }
+
+    &__paragraph{
+      margin-bottom: 25px;
+    }
+
+    &__invest-title{
+      margin-top: 20px;
+      margin-bottom: 15px;
+    }
+
+    &__invest-paragraph{
+      margin-bottom: 60px;
+    }
+
+    &__invest-readmore{
+      position: relative;
+      display: inline-flex;
+      transition: 0.2s;
+      cursor: pointer;
+
+      &:hover{
+        color: #fff;
+        margin-left: 10px;
+      }
+
+      &:after{
+        content: '';
+        position: absolute;
+        right: -30px;
+        width: 15px;
+        height: 15px;
+        top: 6px;
+        background-image: url('../../assets/Svg/right-arrow.svg');
+        background-size: cover;
+        background-position: center;
+      }
+    }
+
+    &__incubate-title{
+      margin-top: 20px;
+      margin-bottom: 15px;
+    }
+
+    &__incubate-paragraph{
+      margin-bottom: 60px;
+    }
+
+    &__incubate-readmore{
+      position: relative;
+      display: inline-flex;
+      transition: 0.2s;
+      cursor: pointer;
+
+      &:hover{
+        color: #fff;
+        margin-left: 10px;
+      }
+
+      &:after{
+        content: '';
+        position: absolute;
+        right: -30px;
+        width: 15px;
+        height: 15px;
+        top: 6px;
+        background-image: url('../../assets/Svg/right-arrow.svg');
+        background-size: cover;
+        background-position: center;
+      }
+    }
+
+    &__points{
+      position: absolute;
+      right: 100px;
+      top: 30%;
+      width: 200px;
+
+       @media screen and (max-width: 640px) {
+        display: none;
+      }
+    }
+  }
+
+  &__part-2{
+    background-color: #15151D;
+    display: flex;
+    align-items: center;
+
+    &__title{
+      margin-bottom: 40px;
+    }
+
+    &__paragraph{
+      margin-bottom: 30px;
+    }
+
+    &__image-container{
+      position: relative;
+      padding-bottom: 20%;
+
+      @media screen and (max-width: 640px) {
+        height: 200px;
+        right: -20%
+      }
+
+      &-image{
+        position: absolute;
+        left: -40%;
+        right: 0px;
+      }
+    }
+  }
+
+  &__part-3{
+    background-color: #1E1E25;
+    display: flex;
+    &__title{
+      margin-bottom: 40px;
+    }
+
+    &__paragraph{
+      margin-bottom: 30px;
+    }
+
+    &__cardgroup{
+
+      &-card{
+        margin-bottom: 20px;
+        padding: 20px;
+        border-style: solid;
+        border-width: 1px;
+        border-color: #96A4DC;
+        border-radius: 20px;
+        padding-bottom: 40px;
+
+        &__title{
+        }
+
+        &__divider{
+          margin-left: 40%;
+          margin-right: 40%;
+          margin-top: 10px;
+          margin-bottom: 10px;
+          height: 1px;
+          background-color: #999999;
+        }
+
+        &__paragraph{
+        }
+      }
+    }
+  }
+
+  &__part-4{
+    background-color: #15151D;
+    display: flex;
+
+    &__title{
+      margin-bottom: 40px;
+    }
+
+    &__paragraph{
+      margin-bottom: 30px;
+    }
+
+  }
+
+  &__part-5{
+    padding-top: 0px;
+    min-height: 0px !important;
+    padding-top: 150px;
+    padding-bottom: 150px;
+
+    @media screen and (max-width: 640px) {
+      padding-top: 100px;
+    }
+
+    background-color: #1E1E25;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+    min-height: calc(100vh - 84px);
+
+    &__title{
+      margin-bottom: 80px;
+    }
+
+    &__partner-card{
+      width: 200px;
+      height: 200px;
+      background-color: #434348;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      margin: auto;
+      transition: 0.3s;
+      cursor: pointer;
+
+      &:hover{
+        background-color: chocolate;
+      }
+    }
+
+    &__partner-card-mobile{
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      background-color: #434348;
+      padding-bottom: 40%;
+      padding-top: 40%;
+    }
+  }
+
+  &__part-space{
+    height: 2px;
+    box-shadow: 0px 0px 40px 5px black;
+    background-color: black;
+  }
+}
